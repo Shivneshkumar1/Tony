@@ -11,7 +11,7 @@ def main():
         
         if user_input == "yes":
             dice_value = roll_dice()
-            print(f"You rolled a {dice_value} 🎉\n")
+            print(f"You rolled a {dice_value} \n")
         elif user_input == "no":
             print("Thanks for playing. Goodbye!")
             break
