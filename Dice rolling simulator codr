@@ -4,7 +4,7 @@ def roll_dice():
     return random.randint(1, 6)
 
 def main():
-    print("🎲 Welcome to the Dice Rolling Simulator!")
+    print(" Welcome to the Dice Rolling Simulator!")
     
     while True:
         user_input = input("Roll the dice? (yes/no): ").lower()
